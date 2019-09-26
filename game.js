@@ -42,10 +42,10 @@ class mainScene {
 
     this.tweens.add({
       targets: this.player,
-      duration: 200,
-      scaleX: 1.2,
-      scaleY: 1.2,
-      yoyo: true,
+      duration: 200, 
+      scaleX: 1.4,  
+      scaleY: 1.4,  
+      yoyo: true,  
     });
   }
 }
