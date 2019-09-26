@@ -9,7 +9,7 @@ class mainScene {
     this.coin = this.physics.add.sprite(300, 200, 'coin');
 
     this.score = 0;
-    let style = { font: '20px Arial', fill: '#fff' };
+    let style = { font: '20px Arial', fill: '#88D8B0' };
     this.scoreText = this.add.text(20, 20, 'score: ' + this.score, style);
 
     this.arrow = this.input.keyboard.createCursorKeys();
@@ -45,7 +45,6 @@ class mainScene {
       duration: 200,
       scaleX: 1.2,
       scaleY: 1.2,
-      yoyo: true,
     });
   }
 }
