@@ -37,22 +37,25 @@ class mainScene {
     this.coin.x = Phaser.Math.Between(100, 600);
     this.coin.y = Phaser.Math.Between(100, 300);
 
+    
     this.score += 10;
+
+   
     this.scoreText.setText('score: ' + this.score);
 
     this.tweens.add({
-      targets: this.player,
-      duration: 200, 
-      scaleX: 1.4,  
-      scaleY: 1.4,  
-      yoyo: true,  
-    });
+    targets: this.player, 
+    duration: 200, 
+    scaleX: 1.2,  
+    scaleY: 1.2, 
+    yoyo: true,  
+  });
   }
 }
 
 new Phaser.Game({
   width: 700,
-  height: 400,
+  height: 300,
   backgroundColor: '#88d8b0',
   scene: mainScene,
   physics: { default: 'arcade' },
