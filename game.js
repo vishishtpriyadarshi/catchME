@@ -51,9 +51,9 @@ class mainScene {
 }
 
 new Phaser.Game({
-  width: 700,
-  height: 300,
-  backgroundColor: '#3498db',
+  width: 1200,
+  height: 700,
+  backgroundColor: '#88d8b0',
   scene: mainScene,
   physics: { default: 'arcade' },
   parent: 'game',
