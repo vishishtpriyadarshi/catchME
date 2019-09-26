@@ -34,8 +34,8 @@ class mainScene {
   }
   
   hit() {
-    this.coin.x = Phaser.Math.Between(100, 2000);
-    this.coin.y = Phaser.Math.Between(100, 2000);
+    this.coin.x = Phaser.Math.Between(100, 500);
+    this.coin.y = Phaser.Math.Between(100, 500);
 
     this.score += 10;
     this.scoreText.setText('score: ' + this.score);
@@ -52,7 +52,7 @@ class mainScene {
 
 new Phaser.Game({
   width: 1000,
-  height: 400,
+  height: 500,
   backgroundColor: '#88d8b0',
   scene: mainScene,
   physics: { default: 'arcade' },
