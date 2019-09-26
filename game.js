@@ -45,7 +45,7 @@ class mainScene {
 
     this.tweens.add({
     targets: this.player, 
-    duration: 200, 
+    duration: 2000, 
     scaleX: 1.2,  
     scaleY: 1.2, 
     yoyo: true,  
