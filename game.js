@@ -34,8 +34,8 @@ class mainScene {
   }
   
   hit() {
-    this.coin.x = Phaser.Math.Between(100, 500);
-    this.coin.y = Phaser.Math.Between(100, 500);
+    this.coin.x = Phaser.Math.Between(100, 600);
+    this.coin.y = Phaser.Math.Between(100, 300);
 
     this.score += 10;
     this.scoreText.setText('score: ' + this.score);
